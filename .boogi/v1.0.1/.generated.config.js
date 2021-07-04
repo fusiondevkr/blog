@@ -1,6 +1,6 @@
 module.exports = {
     "metadata": {
-        "name": "Fusion Dev Study",
+        "name": "퓨전 개발자 101",
         "short_name": "fds",
         "description": "This is the website for fusion devs who use Microsoft Power Platform for their work.",
         "language": "ko",
