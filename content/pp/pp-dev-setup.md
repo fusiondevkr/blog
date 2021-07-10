@@ -9,7 +9,7 @@ order: 1001
 
 ## 파워 플랫폼 개발자 계정 생성을 위해 필요한 것들 ##
 
-* [마이크로365 개발자][m365 dev] 계정이 필요합니다. 아직 생성하지 않았다면, 우선 이것 먼저 만드세요.
+* [마이크로365(M365) 개발자 계정][m365 dev]이 필요합니다. 아직 개발자 계정을 생성하지 않았다면, 우선 개발자 계정부터 먼저 만드세요. 👉 [M365 개발자 계정 생성하기][m365 dev setup]
 
 
 ## 파워 플랫폼 개발자 계정 생성하기 ##
@@ -67,3 +67,4 @@ order: 1001
 [pbi]: /pp/power-bi
 
 [m365 dev]: https://developer.microsoft.com/ko-kr/microsoft-365/dev-program?WT.mc_id=power-34890-juyoo
+[m365 dev setup]: /m365/m365-dev-setup
