@@ -26,21 +26,26 @@ module.exports = {
         "groups": [
             {
                 "order": 1000,
-                "path": "/power-platform",
+                "path": "/pp",
                 "title": ":rocket: 파워 플랫폼"
             },
             {
                 "order": 2000,
+                "path": "/m365",
+                "title": ":computer: 마이크로소프트 365"
+            },
+            {
+                "order": 3000,
                 "path": "/spo",
                 "title": ":rainbow: 셰어포인트 온라인"
             },
             {
-                "order": 3000,
+                "order": 4000,
                 "path": "/d365",
                 "title": ":fuelpump: 다이나믹스 365"
             },
             {
-                "order": 4000,
+                "order": 5000,
                 "path": "/certs",
                 "title": ":scroll: 자격증 준비"
             }
