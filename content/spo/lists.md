@@ -21,9 +21,9 @@ TBD
 TBD
 
 
-[pp]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
+[pp]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
 
-[spo lists]: https://www.microsoft.com/ko-kr/microsoft-365/microsoft-lists?WT.mc_id=github-0000-juyoo
+[spo lists]: https://www.microsoft.com/ko-kr/microsoft-365/microsoft-lists?WT.mc_id=power-34890-juyoo
 
-[paa]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
-[pau]: https://flow.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
+[paa]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
+[pau]: https://flow.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo

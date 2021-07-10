@@ -12,6 +12,7 @@ Microsoft의 [파워 플랫폼][power platform]을 업무에 활용하고 있는
   * [파워 오토메이트](/power-automate)
   * [파워 버추얼 에이전트](/power-virtual-agents)
   * [파워 BI](/power-bi)
+* [마이크로소프트 365](/m365)
 * [셰어포인트 온라인](/spo)
 * [다이나믹스 365](/d365)
 * [자격증 준비](/certs)
@@ -22,11 +23,11 @@ Microsoft의 [파워 플랫폼][power platform]을 업무에 활용하고 있는
 [페이스북 그룹 바로 가기][fb] | [유튜브 채널 바로 가기][yt]
 
 
-[power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
-[power apps]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
-[power automate]: https://flow.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
-[power virtual agents]: https://powervirtualagents.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
-[power bi]: https://powerbi.microsoft.com/ko-kr/?WT.mc_id=github-0000-juyoo
+[power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
+[power apps]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
+[power automate]: https://flow.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
+[power virtual agents]: https://powervirtualagents.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
+[power bi]: https://powerbi.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
 
 [gh discussions]: https://github.com/fusiondevkr/blog/discussions
 
