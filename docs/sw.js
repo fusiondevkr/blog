@@ -69,7 +69,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/3812332637.json",
-    "revision": "a2e2b01b74ae615d78d89e71ff03b0f7"
+    "revision": "f7960271e988549a0333578d4b52a8ed"
   },
   {
     "url": "page-data/app-data.json",
