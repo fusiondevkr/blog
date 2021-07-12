@@ -19,19 +19,31 @@ sidebar:
   forcedNavOrder: []
   expanded: []
   groups:
-  - order: 1000
+  - order: 1
     path: /pp
     title: ":rocket: 파워 플랫폼"
-  - order: 2000
+  - order: 2
+    path: /pas
+    title: ":rocket: 파워 앱"
+  - order: 3
+    path: /pau
+    title: ":rocket: 파워 오토메이트"
+  - order: 4
+    path: /pva
+    title: ":rocket: 파워 버추얼 에이전트"
+  - order: 5
+    path: /pbi
+    title: ":rocket: 파워 BI"
+  - order: 6
     path: /m365
     title: ":computer: 마이크로소프트 365"
-  - order: 3000
+  - order: 7
     path: /spo
     title: ":rainbow: 셰어포인트 온라인"
-  - order: 4000
+  - order: 8
     path: /d365
     title: ":fuelpump: 다이나믹스 365"
-  - order: 5000
+  - order: 9
     path: /certs
     title: ":scroll: 자격증 준비"
   links: []
@@ -50,7 +62,7 @@ features:
     type: github
   toc:
     show: true
-    depth: 3
+    depth: 5
   search:
     enabled: true
     engine: localsearch
@@ -75,7 +87,7 @@ social:
   facebook: 'https://facebook.com/groups/fusiondevkr'
   github: 'https://github.com/fusiondevkr'
   twitter: 'https://twitter.com/fusiondevkr'
-  youtube: 'https://youtube.com/fusiondevkr'
+  youtube: 'https://youtube.com/channel/UCak8-7QciP6IUgIBBGRw3Vw'
 search:
   enabled: true
   startComponent: input

@@ -1,10 +1,9 @@
 ---
-title: 파워 버추얼 에이전트
-description: 파워 버추얼 에이전트 중심으로 공유할 만한 내용들을 정리하는 페이지
-order: 1400
+title: 파워 BI
+description: 파워 BI 중심으로 공유할 만한 내용들을 정리하는 페이지
 ---
 
-[파워 버추얼 에이전트][power virtual agents]
+[파워 BI][power bi]
 
 
 [power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo

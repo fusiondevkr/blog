@@ -61,10 +61,10 @@ order: 1001
 [pp dev]: https://powerapps.microsoft.com/ko-kr/developerplan/?WT.mc_id=power-34890-juyoo
 [pp dev regions]: https://docs.microsoft.com/ko-kr/power-platform/admin/regions-overview?WT.mc_id=power-34890-juyoo
 
-[pas]: /pp/power-apps
-[pau]: /pp/power-automate
-[pva]: /pp/power-virtual-agents
-[pbi]: /pp/power-bi
+[pas]: /pas
+[pau]: /pau
+[pva]: /pva
+[pbi]: /pbi
 
 [m365 dev]: https://developer.microsoft.com/ko-kr/microsoft-365/dev-program?WT.mc_id=power-34890-juyoo
 [m365 dev setup]: /m365/m365-dev-setup
