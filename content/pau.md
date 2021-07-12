@@ -1,10 +1,9 @@
 ---
-title: 파워 앱
-description: 파워 앱 중심으로 공유할 만한 내용들을 정리하는 페이지
-order: 1200
+title: 파워 오토메이트
+description: 파워 오토메이트 중심으로 공유할 만한 내용들을 정리하는 페이지
 ---
 
-[파워 앱][power apps]
+[파워 오토메이트][power automate]
 
 
 [power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo

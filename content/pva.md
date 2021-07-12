@@ -1,10 +1,9 @@
 ---
-title: 파워 오토메이트
-description: 파워 오토메이트 중심으로 공유할 만한 내용들을 정리하는 페이지
-order: 1300
+title: 파워 버추얼 에이전트
+description: 파워 버추얼 에이전트 중심으로 공유할 만한 내용들을 정리하는 페이지
 ---
 
-[파워 오토메이트][power automate]
+[파워 버추얼 에이전트][power virtual agents]
 
 
 [power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo

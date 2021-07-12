@@ -1,10 +1,9 @@
 ---
-title: 파워 BI
-description: 파워 BI 중심으로 공유할 만한 내용들을 정리하는 페이지
-order: 1500
+title: 파워 앱
+description: 파워 앱 중심으로 공유할 만한 내용들을 정리하는 페이지
 ---
 
-[파워 BI][power bi]
+[파워 앱][power apps]
 
 
 [power platform]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
