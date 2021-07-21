@@ -57,11 +57,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/12478684.json",
-    "revision": "c3c0a5979376cabc84a364d37a957487"
+    "revision": "0b88ac6046bb98013503a0b687b9cc9e"
   },
   {
     "url": "page-data/sq/d/2882937274.json",
-    "revision": "8907b64453b8767d51f6b5d2262e35ac"
+    "revision": "da30e024d7f235ed5d4c79db75a7176f"
   },
   {
     "url": "page-data/sq/d/353167761.json",
@@ -69,7 +69,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/3812332637.json",
-    "revision": "e187d89acb970b73f8246eddad75f8db"
+    "revision": "858eed7c9d453c2aa3660fccae736248"
   },
   {
     "url": "page-data/app-data.json",
