@@ -68,6 +68,11 @@ module.exports = {
                 "order": 9,
                 "path": "/certs",
                 "title": ":scroll: 자격증 준비"
+            },
+            {
+                "order": 10,
+                "path": "/workshops",
+                "title": ":hammer_and_wrench: 워크샵 및 부트캠프"
             }
         ],
         "links": [],
