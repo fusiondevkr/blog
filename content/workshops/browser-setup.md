@@ -49,8 +49,8 @@ order: 500
 
 이제 웹 브라우저에 다양한 프로필을 구성했다면, 다음 단계로 넘어갑니다. 아래 중 하나를 선택해 진행하세요.
 
+* [웹 브라우저 프로필 설정하기][handson browser profile]
 * [M365 개발자 계정 실습 과정에 등록하기][handson m365 rego]
-* [파워 앱 실습하기][handson pas]
 
 
 [image-01]: ../images/workshops/browser-setup-01.png
@@ -64,5 +64,5 @@ order: 500
 
 [edge]: https://www.microsoft.com/ko-kr/edge?WT.mc_id=power-34890-juyoo
 
-[handson m365 rego]: 
-[handson pas]
+[handson browser profile]: ../pl-900/web-browser-setup
+[handson m365 rego]: ../pl-900/m365-account-registration
