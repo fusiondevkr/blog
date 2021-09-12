@@ -52,6 +52,8 @@ order: 500
 * [웹 브라우저 프로필 설정하기][handson browser profile]
 * [M365 개발자 계정 실습 과정에 등록하기][handson m365 rego]
 
+만약 파워 플랫폼 실습을 하고 싶다면 [핸즈온 워크샵 및 부트캠프](/workshops) 페이지를 참조하세요.
+
 
 [image-01]: ../images/workshops/browser-setup-01.png
 [image-02]: ../images/workshops/browser-setup-02.png

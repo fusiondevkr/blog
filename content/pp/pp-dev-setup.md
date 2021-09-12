@@ -47,6 +47,7 @@ order: 1001
 * [파워 버추얼 에이전트][pva]
 * [파워 BI][pbi]
 
+만약 파워 플랫폼 실습을 하고 싶다면 [핸즈온 워크샵 및 부트캠프](/workshops) 페이지를 참조하세요.
 
 
 [image-01]: ../images/pp/pp-dev-setup-01.png
