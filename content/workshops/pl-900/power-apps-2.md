@@ -1,7 +1,7 @@
 ---
 title: ➕ 파워 앱 실습 2
 description: 파워 앱을 실습합니다.
-order: 5106
+order: 5107
 ---
 
 TBD

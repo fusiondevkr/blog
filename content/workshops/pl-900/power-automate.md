@@ -1,7 +1,7 @@
 ---
 title: ➕ 파워 오토메이트 실습
 description: 파워 오토메이트를 실습합니다.
-order: 5105
+order: 5106
 ---
 
 TBD
