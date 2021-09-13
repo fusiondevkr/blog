@@ -1,0 +1,78 @@
+@startuml
+
+actor "마케팅 부서장" as Boss
+actor "마케팅 담당자" as Marketing
+participant "Microsoft 리스트" as Lists
+participant "파워 오토메이트" as PAU
+participant "파워 앱" as PAS
+actor "점장" as Franchisee
+participant "배송 API" as Logistics
+
+Franchisee -> PAS: 굿즈 재고 현황 요청
+activate PAS
+    PAS -> Lists: 굿즈 재고 현황 요청
+activate Lists
+    Lists -> PAS: 굿즈 재고 현황 정보
+    PAS -> Franchisee: 굿즈 재고 현황 정보
+
+    Franchisee -> PAS: 굿즈 신청
+    PAS -> PAU: 굿즈 신청
+    activate PAU
+
+    alt 재고 충분?
+        PAU -> PAU: 신청수량 산출
+
+    else 재고 불충분?
+        PAU -> PAU: 가능수량 산출
+    end
+
+    alt 부서장 승인 필요?
+        PAU -> Boss: 승인 요청
+        note right of PAU
+            이메일
+        end note
+        Boss -> PAU: 승인 혹은 거부
+    end
+
+    alt 부서장 승인?
+        PAU -> Lists: 재고 현황 업데이트
+
+        PAU -> Logistics: 배송 요청
+        activate Logistics
+        note left of PAU
+            API 요청
+        end note
+        Logistics -> PAU: 요청 결과
+        note right of Logistics
+            API 응답
+        end note
+        deactivate Logistics
+
+        PAU -> Franchisee: 승인
+        note left of PAU
+            이메일
+        end note
+    else 부서장 거부?
+        PAU -> Franchisee: 거부
+        note left of PAU
+            이메일
+        end note
+    end
+
+    alt 굿즈 재고 수량 충분?
+        PAU -> Lists: 굿즈 재고 수량 수정
+
+    else 굿즈 재고 수량 불충분?
+        PAU -> Marketing: 굿즈 재고 확보 요청
+        note right of PAU
+            이메일
+        end note
+        deactivate PAU
+        Marketing -> Marketing: 굿즈 재고 확보
+        Marketing -> PAS: 굿즈 재고 수량 수정
+        PAS -> Lists: 굿즈 재고 수량 수정
+    end
+deactivate PAS
+deactivate Lists
+
+@enduml

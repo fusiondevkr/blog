@@ -1,0 +1,73 @@
+@startuml
+
+actor "마케팅 부서장" as Boss
+actor "마케팅 담당자" as Marketing
+participant "엑셀 파일" as Excel
+actor "배송업체" as Logistics
+actor "점장" as Franchisee
+
+Excel -> Marketing: 굿즈 재고 현황 데이터
+activate Excel
+    Marketing -> Franchisee: 굿즈 재고 현황 데이터
+    note left of Marketing
+        이메일
+    end note
+
+    Franchisee -> Marketing: 굿즈 신청
+    note right of Franchisee
+        이메일
+    end note
+
+    alt 재고 충분?
+        Marketing -> Franchisee: 신청수량 승인
+        note left of Marketing
+            이메일
+        end note
+
+    else 재고 불충분?
+        Marketing -> Franchisee: 가능수량 승인
+        note left of Marketing
+            이메일
+        end note
+    end
+
+    alt 부서장 승인 필요?
+        Marketing -> Boss: 승인 요청
+        note right of Marketing
+            이메일
+        end note
+        Boss -> Marketing: 승인 혹은 거부
+        note left of Boss
+            이메일
+        end note
+    end
+
+    alt 부서장 승인?
+        Marketing -> Franchisee: 승인 확인
+        note left of Marketing
+            이메일
+        end note
+        Marketing -> Logistics: 배송 요청
+        note left of Marketing
+            이메일
+        end note
+
+    else 부서장 거부?
+        Marketing -> Franchisee: 승인 거절
+        note left of Marketing
+            이메일
+        end note
+    end
+
+
+    alt 굿즈 재고 수량 충분?
+        Marketing -> Excel: 굿즈 재고 수량 수정
+
+    else 굿즈 재고 수량 불충분?
+        Marketing -> Marketing: 굿즈 재고 확보
+        Marketing -> Excel: 굿즈 재고 수량 수정
+    end
+
+deactivate Excel
+
+@enduml
