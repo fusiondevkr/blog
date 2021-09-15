@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://study.fusiondev.kr/d365</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/certs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/d365</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/m365</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pas</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -12,11 +12,12 @@
 <url> <loc>https://study.fusiondev.kr/spo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/certs/pl-900</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/pp/alm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/m365/m365-dev-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/pp/alm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/cuscon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/pp-dev-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/spo/lists</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/workshops/browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/alm/cuscon-create-in-a-solution</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/alm/solution-best-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -28,7 +29,6 @@
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/m365-list</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-apps-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-apps-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/workshops/pl-900/web-browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-automate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/workshops/browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/workshops/pl-900/web-browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
