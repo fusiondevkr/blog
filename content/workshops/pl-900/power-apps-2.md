@@ -9,7 +9,7 @@ order: 5107
 
 ## 파워 앱 굿즈 신청 화면 수정 ##
 
-1. **체크포인트**버튼이름을 **주문**으로 변경합니다. 먼저 **굿즈신청플로우**에 전송할 컬렉션을 만들겠습니다. `ClearCollect()`함수를 사용하여 컬렉션 생성과 동시에 리프레쉬하는 기능을 이용합니다. 여기서 `ItemCollection`이라는 이름의 컬렉션을 생성하고 컬럼을 `itemId`와 `qauntity`로 지정 후 그에 상응하는 값들을 넣습니다. `itemId`에는 드롭다운에서 선택한 아이템 ID값들이 들어가고 `quantity`에는 수량이 들어갑니다. `RemoveIf()`함수를 사용하여 `ItemCollection`에서 아이템 수량이 0이거나 비어 있으면 해당하는 레코드를 삭제합니다. 아래의 소스코드를 참조하여 "**Button3**"의 "**OnSelect**"속성에서 "**Fx**"를 아래와 같이 입력합니다. 입력 후에는 키보드의 ALT 키(또는 Option 키)를 누른 상태에서 "**주문**"버튼을 클릭합니다.
+1. **체크포인트**버튼이름을 **주문**으로 변경합니다. 먼저 **굿즈신청플로우**에 전송할 컬렉션을 만들겠습니다. `ClearCollect()`함수를 사용하여 컬렉션 생성과 동시에 리프레쉬하는 기능을 이용합니다. 여기서 `ItemCollection`이라는 이름의 컬렉션을 생성하고 컬럼을 `itemId`와 `qauntity`로 지정 후 그에 상응하는 값들을 넣습니다. `itemId`에는 드롭다운에서 선택한 아이템 ID값들이 들어가고 `quantity`에는 수량이 들어갑니다. `RemoveIf()`함수를 사용하여 `ItemCollection`에서 아이템 수량이 0이거나 비어 있으면 해당하는 레코드를 삭제합니다. 아래의 소스코드를 참조하여 "**Button3**"의 "**OnSelect**"속성에서 "**Fx**"를 아래와 같이 입력합니다. 입력 후에는 키보드의 `Alt` 키 또는 `Option` 키를 누른 상태에서 "**주문**"버튼을 클릭합니다.
 
     ```
     /* ItemCollection 이라는 이름으로 컬렉션을 생성 */
@@ -40,7 +40,7 @@ order: 5107
 
     ![굿즈 신청 플로우 연결1][image-03]
 
-4. PL900GoodsFlow.Run() 함수가 생성됩니다. **PL900GoodsFlow**를 실행한 후 플로우에서 받은 메세지를 `Result`라는 컬렉션에 저장하기 위해 아래의 소스코드와 같이 추가 업데이트 합니다.
+4. `PL900GoodsFlow.Run()` 함수가 생성됩니다. **PL900GoodsFlow**를 실행한 후 플로우에서 받은 메세지를 `Result`라는 컬렉션에 저장하기 위해 아래의 소스코드와 같이 추가 업데이트 합니다.
 
     ```
     /* ItemCollection 이라는 이름으로 컬렉션을 생성 */
@@ -71,7 +71,7 @@ order: 5107
 
     ![굿즈 신청 플로우 연결2][image-04]
 
-5. ALT키 혹은 Option 키를 누른 상태에서 "**주문**"버튼을 다시 한번 클릭합니다. 보기 탭에 "**컬렉션**"을 클릭하면 Result라는 컬렉션 안에 **PL900GoodsFlow**를 실행한 후 플로우에서 받은 메시지가 저장 되어있습니다.
+5. `Alt`키 혹은 `Option`키를 누른 상태에서 "**주문**"버튼을 다시 한번 클릭합니다. 보기 탭에 "**컬렉션**"을 클릭하면 Result라는 컬렉션 안에 **PL900GoodsFlow**를 실행한 후 플로우에서 받은 메시지가 저장 되어있습니다.
 
     ![굿즈 신청 플로우 연결3][image-05]
 
@@ -164,6 +164,22 @@ order: 5107
 * 학습자료 👉 [바로가기][fdk pl900 materials]
 * 동영상 👉 [바로가기][fdk pl900 playlist]
 * 질문/답변 👉 [바로가기][fdk discussion]
+
+
+[image-01]: ../../images/workshops/power-apps-2-01.png
+[image-02]: ../../images/workshops/power-apps-2-02.png
+[image-03]: ../../images/workshops/power-apps-2-03.png
+[image-04]: ../../images/workshops/power-apps-2-04.png
+[image-05]: ../../images/workshops/power-apps-2-05.png
+[image-06]: ../../images/workshops/power-apps-2-06.png
+[image-07]: ../../images/workshops/power-apps-2-07.png
+[image-08]: ../../images/workshops/power-apps-2-08.png
+[image-09]: ../../images/workshops/power-apps-2-09.png
+[image-10]: ../../images/workshops/power-apps-2-10.png
+[image-11]: ../../images/workshops/power-apps-2-11.png
+[image-12]: ../../images/workshops/power-apps-2-12.png
+[image-13]: ../../images/workshops/power-apps-2-13.png
+
 
 [pas]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
 [pau]: https://flow.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
