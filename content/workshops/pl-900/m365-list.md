@@ -65,7 +65,7 @@ order: 5104
 
 [m365 lists]: https://www.microsoft.com/ko-kr/microsoft-365/microsoft-lists?WT.mc_id=power-34890-juyoo
 
-[excel download]: https://github.com/xxxxx
+[excel download]: https://github.com/fusiondevkr/blog/raw/main/content/artifacts/workshops/PL900GoodsList.xlsx
 
 [handson background]: ../background
 [handson m365 create]: ../m365-account-setup
