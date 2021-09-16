@@ -339,7 +339,7 @@ order: 5106
 4. "**입력**" 필드에는 "**식 추가**" 아이콘을 클릭해서 아래 식을 입력합니다.
 
     ````
-    sub(variables('Items')[variables('ItemIndex')]?['Amount'], body('JSON_구문_분석')?['items'][variables('ItemIndex')]?['quantity'])
+    sub(variables('Items')[variables('ItemIndex')]?['Quantity'], body('JSON_구문_분석')?['items'][variables('ItemIndex')]?['quantity'])
     ````
 
     ![작성 액션 입력][image-40]
@@ -348,10 +348,10 @@ order: 5106
 
     ![항목 업데이트 액션 선택][image-41]
 
-6. "**사이트 주소**"와 "**목록 이름**"을 선택하고, "**ID**"와 "**Amount**", "**NeedApproval**" 필드에 아래와 같이 입력합니다.
+6. "**사이트 주소**"와 "**목록 이름**"을 선택하고, "**ID**"와 "**Quantity**", "**NeedApproval**" 필드에 아래와 같이 입력합니다.
 
     * **ID**: `variables('Items')[variables('ItemIndex')]?['ID']`
-    * **Amount**: `if(greater(outputs('작성'), 0), outputs('작성'), 0)`
+    * **Quantity**: `if(greater(outputs('작성'), 0), outputs('작성'), 0)`
     * **NeedApproval**: `coalesce(variables('Items')[variables('ItemIndex')]?['NeedApproval'], false)`
 
     ![항목 업데이트 액션 필드값 입력][image-42]
