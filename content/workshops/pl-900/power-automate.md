@@ -519,7 +519,7 @@ order: 5106
     ![승인 이메일][image-67]
 
 
-이렇게 해서 파워 오토메이트로 굿즈 신청 프로세스를 작성해 봤습니다. 이제 이 파워 오토메이트 워크플로우를 파워 앱에 적용시켜 보겠습니다.
+이렇게 해서 [파워 오토메이트][pau]로 굿즈 신청 프로세스를 작성해 봤습니다. 이제 이 파워 오토메이트 워크플로우를 [파워 앱][pas]에 적용시켜 보겠습니다.
 
 ## 다음 순서 ##
 
@@ -598,6 +598,8 @@ order: 5106
 [image-63]: ../../images/workshops/power-automate-63.png
 [image-64]: ../../images/workshops/power-automate-64.png
 [image-65]: ../../images/workshops/power-automate-65.png
+[image-66]: ../../images/workshops/power-automate-66.png
+[image-67]: ../../images/workshops/power-automate-67.png
 
 
 [pas]: https://powerapps.microsoft.com/ko-kr/?WT.mc_id=power-34890-juyoo
