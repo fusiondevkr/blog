@@ -19,16 +19,16 @@
 <url> <loc>https://study.fusiondev.kr/spo/lists</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/alm/cuscon-create-in-a-solution</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/pp/alm/solution-new</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/alm/solution-best-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/pp/alm/solution-new</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/pp/cuscon/cuscon-create</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/workshops/pl-900/m365-account-registration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/background</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/workshops/pl-900/m365-account-registration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/m365-account-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/m365-list</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-apps-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-apps-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://study.fusiondev.kr/workshops/pl-900/web-browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900/power-automate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://study.fusiondev.kr/workshops/pl-900/web-browser-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://study.fusiondev.kr/workshops/pl-900</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
