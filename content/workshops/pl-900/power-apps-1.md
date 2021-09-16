@@ -63,7 +63,7 @@ order: 5105
 5. 그리고 "**주문**" 버튼을 생성하여 버튼 클릭시 **재고 주문 화면**으로 전환되는 설정을 할 예정입니다. 먼저 "**BrowseGallery1**"의 사이즈를 줄여 공간 확보 후 메뉴에서 "**삽입**"을 선택하여 버튼을 생성합니다. 오른쪽 속성창에서 "**텍스트**" 속성에 **주문**을 입력합니다. "**Button1**"의 OnSelect 속성창에서 컬렉션을 생성하고 리프레시하는 **ClearCollect 함수**를 "**Fx**"에 아래와 같이 입력합니다.
 
     ```
-    ClearCollect(List, [@'굿즈 리스트'])
+    ClearCollect(List, [@'PL900GoodsList'])
     ```
 
     ![굿즈 조회 화면 편집5][image-08]
@@ -142,7 +142,7 @@ order: 5105
 4. 화면 연결을 위하여 "**BrowseScreen1**"화면으로 이동합니다. "**Button1**"이 선택된 상태에서 "**OnSelect**" 속성의 "**Fx**"에 아래의 함수를 추가하여 업데이트 합니다. **Navigate함수**는 스크린 화면을 연결하여 버튼을 클릭하였을 때 화면이 전환되는 효과를 나타냅니다.
 
     ```
-    ClearCollect(List, [@'굿즈 리스트']);
+    ClearCollect(List, [@'PL900GoodsList']);
     Navigate(Screen1)
     ```
 
