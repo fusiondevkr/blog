@@ -356,5 +356,6 @@ MigrationBackup/
 
 public/
 docs/
+!content/artifacts/
 
 .DS_Store
