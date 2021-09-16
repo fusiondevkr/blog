@@ -18,7 +18,7 @@ order: 5104
 
 엑셀파일에는 4개의 열과 10개의 행으로 이루어진 "**Table1**"이 있습니다. "**Table1**"은 굿즈 리스트와 관련한 "**ItemName**", "**ItemID**", "**ItemPrice**", "**Quantity**" 열이 있고 10개의 행 데이터가 있습니다. 다운로드 받은 엑셀파일 데이터를 Microsoft 리스트로 업로드 하여 굿즈 재고 관리에 필요한 데이터 저장소를 만듭니다.
 
-1. [https://office.com](https://office.com) 사이트로 접속 후 왼쪽 상단의 메뉴바를 클릭 후 Microsoft 리스트를 클릭합니다. "**+새 목록**" 버튼을 클릭합니다.
+1. [Microsoft 365 포털][m365 portal] 사이트로 접속 후 왼쪽 상단의 메뉴바를 클릭 후 Microsoft 리스트를 클릭합니다. "**+새 목록**" 버튼을 클릭합니다.
 
     ![Microsoft 리스트 로그인][image-01]
 
@@ -63,6 +63,7 @@ order: 5104
 [image-06]: ../../images/workshops/m365-list-06.png
 
 
+[m365 portal]: https://office.com?WT.mc_id=power-34890-juyoo
 [m365 lists]: https://www.microsoft.com/ko-kr/microsoft-365/microsoft-lists?WT.mc_id=power-34890-juyoo
 
 [excel download]: https://github.com/fusiondevkr/blog/raw/main/content/artifacts/workshops/PL900GoodsList.xlsx
