@@ -199,12 +199,7 @@ order: 5105
 2. 체크포인트 버튼인 "**Button3**"가 선택된 상태에서 "**OnSelect**" 속성에 "**Fx**"를 아래와 같이 입력합니다. 사용자 지정 커넥터가 체크포인트 값과 email값을 API에게 넘겨줍니다. 그러면 체크인 처리가 완료됩니다.
 
     ```
-    CheckPointHelper.CheckIn(
-        {
-            checkpoint: 2,
-            email: User().Email
-        }
-    )
+    CheckPointHelper.CheckIn({ checkpoint: 2, email: User().Email })
     ```
 
     ![사용자 지정 커넥터 파워 앱에 연결 2][image-27]
