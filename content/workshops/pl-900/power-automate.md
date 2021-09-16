@@ -64,7 +64,7 @@ order: 5106
 
 ```json
 {
-  "email": "onyu.kim@fourthcoffee.onmicrosoft.com",
+  "email": "onyu.kim@<테넌트이름>.onmicrosoft.com",
   "items": [
     {
       "itemId": 1,
@@ -384,7 +384,7 @@ order: 5106
 
 3. "**URL에서 OpenAPI 가져오기**" 팝업 창이 나타나면 "**커넥터 이름**" 필드와 "**공개 API의 URL에 붙여넣기**" 필드에 아래 값을 입력합니다.
 
-    * **커넥터 이름**: `Logistics`
+    * **커넥터 이름**: `PL900Logistics`
     * **공개 API의 URL에 붙여넣기**: `https://fncapp-fusiondevkr-lgi-krc.azurewebsites.net/api/openapi/v2.json`
 
     이후 "**가져오기**" 버튼을 클릭한 후, "**계속**" 버튼이 파란색으로 활성화되면, 클릭해서 다음 화면으로 넘어갑니다.
@@ -395,7 +395,7 @@ order: 5106
 
     ![커스텀 커넥터 만들기 버튼][image-48]
 
-5. 다시 커스텀 커넥터 리스트 화면으로 돌아가 보면 방금 만든 "**Logistics**" 커스텀 커넥터가 보입니다. 동작 컬럼 밑에 있는 "**➕**" 버튼을 클릭해서 커넥션을 만듭니다.
+5. 다시 커스텀 커넥터 리스트 화면으로 돌아가 보면 방금 만든 "**PL900Logistics**" 커스텀 커넥터가 보입니다. 동작 컬럼 밑에 있는 "**➕**" 버튼을 클릭해서 커넥션을 만듭니다.
 
     ![Logistics 커스텀 커넥터][image-49]
 
@@ -446,7 +446,7 @@ order: 5106
 
 2. "**email**", "**checkpoint**" 필드에 아래와 같이 입력하세요.
 
-    * **email**: `안지민 페르소나의 이메일 주소 (예: jimin.ahn@fourthcoffee.onmicrosoft.com)`
+    * **email**: `안지민 페르소나의 이메일 주소 (예: jimin.ahn@<테넌트이름>.onmicrosoft.com)`
     * **checkpoint**: `3`
 
     ![Run check-in 액션 항목 입력][image-57]
@@ -470,11 +470,11 @@ order: 5106
 
     ![연결 로그인 확인][image-60]
 
-4. "**JSON구문분석_콘텐츠**" 필드에 테스트 데이터를 입력합니다. 아래 테스트 데이터를 입력해 보세요. 그리고 "**흐름 실행**" 버튼을 클릭합니다. 이 때 "**email**" 값은 김온유의 페르소나에 해당하는 이메일 주소입니다. 여기서는 `onyu.kim@fourthcoffee.onmicrosoft.com`라고 임의로 지정했습니다.
+4. "**JSON구문분석_콘텐츠**" 필드에 테스트 데이터를 입력합니다. 아래 테스트 데이터를 입력해 보세요. 그리고 "**흐름 실행**" 버튼을 클릭합니다. 이 때 "**email**" 값은 김온유의 페르소나에 해당하는 이메일 주소입니다. 여기서는 `onyu.kim@<테넌트이름>.onmicrosoft.com`라고 임의로 지정했습니다.
 
     ```json
     {
-      "email": "onyu.kim@fourthcoffee.onmicrosoft.com",
+      "email": "onyu.kim@<테넌트이름>.onmicrosoft.com",
       "items": [
         {
           "itemId": 1,
