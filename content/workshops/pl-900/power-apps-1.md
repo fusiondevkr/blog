@@ -161,7 +161,7 @@ order: 5105
 
     ![사용자 지정 커넥터 1][image-20]
 
-2. 커넥터 이름을 입력하고 아래 URL API주소를 **CustomConnector.txt**파일에서 **체크포인트 URL**을 복사, 붙여 넣기 합니다. "**가져오기**"한 후 "**계속**"을 클릭합니다.
+2. 커넥터 이름을 입력하고 아래 URL을 복사해서 "공개 API의 URL에 붙여넣기" 필드에 입력합니다. "**가져오기**"한 후 "**계속**"을 클릭합니다.
 
     ```
     https://fncapp-fusiondevkr-cph-krc.azurewebsites.net/api/openapi/v2.json
