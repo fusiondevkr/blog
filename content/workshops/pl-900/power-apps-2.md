@@ -9,7 +9,7 @@ order: 5107
 
 ## 파워 앱 굿즈 신청 화면 수정 ##
 
-1. **체크포인트** 버튼 이름을 **주문**으로 변경하고 "**OnSelect**" 항목의 "**Fx**"에 아래 코드를 입력합니다. 입력 후에는 키보드의 `Alt` 키 또는 `Option` 키를 누른 상태에서 "**주문**"버튼을 클릭합니다.
+1. **삽입** 탭에서 단추를 클릭하여 생성 후 **주문**으로 텍스트 이름을 변경합니다. "**Button3**"의 "**OnSelect**" 항목에서 "**Fx**"에 아래 코드를 입력합니다. 입력 후에는 키보드의 `Alt` 키 또는 `Option` 키를 누른 상태에서 "**주문**"버튼을 클릭합니다.
 
     ```
     /* ItemCollection 이라는 이름으로 컬렉션을 생성 */
@@ -96,12 +96,10 @@ order: 5107
 
     ![화면전환2][image-07]
 
-3. "**Button3**"의 **OnSelect**속성을 클릭합니다. 화면 전환을 위하여 `Navigate()`함수를 사용합니다. 체크포인트에 체크인하기 위해 소스코드를 아래와 같이 추가 업데이트 합니다.
+3. "**Button3**"의 "**OnSelect**"속성을 클릭합니다. 화면 전환을 위하여 `Navigate()`함수를 사용합니다. 소스코드를 아래와 같이 추가 업데이트 합니다.
+
 
     ```
-    /* 체크포인트 2 */
-    CheckPointHelper.CheckIn({ checkpoint: 2, email: User().Email })
-
     /* ItemCollection 이라는 이름으로 컬렉션을 생성 */
     /* 파워 오토메이트 플로우에 보낼 데이터를 이 컬렉션에 저장 */
     ClearCollect(ItemCollection, {
@@ -126,9 +124,6 @@ order: 5107
             items: ItemCollection
         })
     ));
-
-    /* 체크포인트 4 */
-    CheckPointHelper.CheckIn({ checkpoint: 4, email: User().Email })
 
     /* 화면 전환 */
     Navigate(Screen2)
