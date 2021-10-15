@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: ➕ M365 개발자 계정 등록
 description: 파워 플랫폼 실습을 위해 M365 개발자 계정을 실습 시스템에 등록합니다.
 order: 5103
@@ -62,4 +62,4 @@ M365 개발자 계정을 만들었다면, 실습 시스템에 등록해야 합�
 [handson m365 list]: ../m365-list
 [handson pas 1]: ../power-apps-1
 [handson pau]: ../power-automate
-[handson pas 2]: ../power-apps-2 -->
+[handson pas 2]: ../power-apps-2
