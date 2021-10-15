@@ -42,6 +42,10 @@ order: 5104
 
     ![리스트 NeedApproval항목 설정][image-06]
 
+> **체크포인트**:
+> 
+> * [Microsoft 리스트 생성 후](https://aka.ms/fdk/workshop/checkin/09)
+
 
 ## 다음 순서 ##
 
