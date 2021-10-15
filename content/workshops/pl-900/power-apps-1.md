@@ -145,7 +145,6 @@ order: 5105
 
 4. 화면 연결을 위하여 "**BrowseScreen1**"화면으로 이동합니다. "**Button1**"이 선택된 상태에서 "**OnSelect**" 속성의 "**Fx**"에 아래의 함수를 추가하여 업데이트 합니다. **Navigate함수**는 스크린 화면을 연결하여 버튼을 클릭하였을 때 화면이 전환되는 효과를 나타냅니다. 아래의 "**Navigate**" 함수를 추가 후 `Alt`버튼을 누른 상태에서 **주문**버튼을 클릭하면 화면이 "**Screen1**"으로 전환됩니다.
 
-
     ```
     ClearCollect(List, [@'PL900GoodsList']);
     Navigate(Screen1)
