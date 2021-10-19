@@ -42,8 +42,8 @@ ClearCollect(ItemCollection, {
       quantity: Int(TextInput1.Text)
     }
 )
-/*굿즈신청플로우를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
-ClearCollect(Result,'굿즈신청플로우'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+/*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
+ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
 
     ```
 
@@ -84,8 +84,8 @@ ClearCollect(ItemCollection, {
       quantity: Int(TextInput1.Text)
     }
 )
-/*굿즈신청플로우를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
-ClearCollect(Result,'굿즈신청플로우'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+/*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
+ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
 
 /*화면 전환*/
 Navigate(Screen2)
