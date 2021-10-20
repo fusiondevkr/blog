@@ -12,14 +12,13 @@ order: 5107
 1. **삽입** 탭에서 단추를 클릭하여 생성 후 **주문**으로 텍스트 이름을 변경합니다. "**Button3**"의 "**OnSelect**" 항목에서 "**Fx**"에 아래 코드를 입력합니다. 입력 후에는 키보드의 `Alt` 키 또는 `Option` 키를 누른 상태에서 "**주문**"버튼을 클릭합니다. (참고: TextInput1.Text에는 무조건 숫자가 입력되어야 합니다) 
 
     ```
-   /*itemCollection 이름의 컬렉션 생성하여 파워 오토메이트 플로우에 보낼 데이터를 컬렉션으로 저장*/
-
-ClearCollect(ItemCollection, {
-      itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
-      quantity: Int(TextInput1.Text)
-    }
-)
-
+    /*itemCollection 이름의 컬렉션 생성하여 파워 오토메이트 플로우에 보낼 데이터를 컬렉션으로 저장*/
+    
+    ClearCollect(ItemCollection, {
+        itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
+        quantity: Int(TextInput1.Text)
+        }
+    )
     ```
 
     ![주문버튼 업데이트1][image-01]
@@ -35,15 +34,16 @@ ClearCollect(ItemCollection, {
 4. `PL900GoodsFlow.Run()` 함수가 생성됩니다. **PL900GoodsFlow**를 실행한 후 플로우에서 받은 메세지를 `Result`라는 컬렉션에 저장하기 위해 아래의 소스코드와 같이 추가 업데이트 합니다.
 
     ```
- /*itemCollection 이름의 컬렉션 생성하여 파워 오토메이트 플로우에 보낼 데이터를 컬렉션으로 저장*/
+    /*itemCollection 이름의 컬렉션 생성하여 파워 오토메이트 플로우에 보낼 데이터를 컬렉션으로 저장*/
 
-ClearCollect(ItemCollection, {
-      itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
-      quantity: Int(TextInput1.Text)
-    }
-)
-/*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
-ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+       ClearCollect(ItemCollection, {
+        itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
+        quantity: Int(TextInput1.Text)
+        }
+    )
+
+    /*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 Result라는 컬렉션에 저장 */
+    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
 
     ```
 
@@ -79,16 +79,17 @@ ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).item
     ```
    /*itemCollection 이름의 컬렉션 생성하여 파워 오토메이트 플로우에 보낼 데이터를 컬렉션으로 저장*/
 
-ClearCollect(ItemCollection, {
-      itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
-      quantity: Int(TextInput1.Text)
-    }
-)
-/*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 result라는 컬렉션에 저장 */
-ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+    ClearCollect(ItemCollection, {
+        itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
+        quantity: Int(TextInput1.Text)
+        }
+    )
 
-/*화면 전환*/
-Navigate(Screen2)
+    /*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 esult라는 컬렉션에 저장 */
+    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+
+    /*화면 전환*/
+    Navigate(Screen2)
 
     ```
 
