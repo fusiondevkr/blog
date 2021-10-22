@@ -41,6 +41,10 @@ order: 5104
 6. 6번 "**카드지갑**" 아이템과 7번 "**미니여행가방**" 아이템은 특정 금액이상의 굿즈 이므로 굿즈 신청시 부서장 승인이 필요한 항목입니다. 6번 행과 7번 행을 클릭하여 오른쪽의 창을 열고 "**NeedApproval**" 열에서 "**예**"로 선택하여 변경합니다. 리스트(목록)가 완성되었습니다.
 
     ![리스트 NeedApproval항목 설정][image-06]
+    
+7. SharePoint 리스트(목록)와 연동된 파워 앱을 사용할때, 사용자는 사이트 접근 권한이 있어야 SharePoint 리스트와 연동된 데이터를 파워 앱에서 볼 수 있습니다. 그러므로 **PL900GoodsList가 생성된 사이트**는 파워 앱 사용자가 포함된 **Security 그룹과 공유**되어야 합니다.  리스트(목록)의 오른쪽 상단의 "**공유**" 버튼을 클릭 후 사이트 공유 창에서 **Microsoft 365그룹 또는 보안 그룹**을 선택합니다. 그룹이 선택되면 제공하고자 하는 **권한** 선택 후 "**공유**"버튼을 클릭합니다.   
+
+    ![사이트 공유 설정][image-07]
 
 > **체크포인트**:
 > 
@@ -65,6 +69,7 @@ order: 5104
 [image-04]: ../../images/workshops/m365-list-04.png
 [image-05]: ../../images/workshops/m365-list-05.png
 [image-06]: ../../images/workshops/m365-list-06.png
+[image-07]: ../../images/workshops/m365-list-07.png
 
 
 [m365 portal]: https://office.com?WT.mc_id=power-34890-juyoo
