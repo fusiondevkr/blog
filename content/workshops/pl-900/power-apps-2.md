@@ -18,7 +18,7 @@ order: 5107
         itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
         quantity: Int(TextInput1.Text)
         }
-    )
+    );
     ```
 
     ![주문버튼 업데이트1][image-01]
@@ -40,10 +40,10 @@ order: 5107
         itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
         quantity: Int(TextInput1.Text)
         }
-    )
+    );
 
     /*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 Result라는 컬렉션에 저장 */
-    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity));
 
     ```
 
@@ -83,10 +83,10 @@ order: 5107
         itemId: LookUp(List, ItemName = Dropdown1.Selected.ItemName, ID),
         quantity: Int(TextInput1.Text)
         }
-    )
+    );
 
     /*PL900GoodsFlow를 실행 한 후 플로우에서 받은 메세지를 esult라는 컬렉션에 저장 */
-    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity))
+    ClearCollect(Result,'PL900GoodsFlow'.Run(User().Email,First(ItemCollection).itemId,First(ItemCollection).quantity));
 
     /*화면 전환*/
     Navigate(Screen2)
@@ -115,13 +115,13 @@ order: 5107
 
 ## 사용자의 파워 앱 사용 ##
 
-이제 가맹점 점장 페르소나를 가진 김온유씨도 이 파워 앱을 사용할 수 있게 됐습니다. 사용자인 김온유씨의 계정에서 로그인하여 **PL900GoodsApp**을 사용해 보겠습니다.
+이제 가맹점 점장 페르소나를 가진 김온유도 이 파워 앱을 사용할 수 있게 됐습니다. 사용자인 김온유씨의 계정에서 로그인하여 **PL900GoodsApp**을 사용해 보겠습니다.
 
-1. [파워 앱 포털][pas]로 접속 후 앱 메뉴에서 **PL900GoodsApp**을 실행합니다. 화면에 **권한 허용**에 대한 요청이 나타납니다. "**허용**"을 클릭 후 입장합니다.
+1.  Microsoft Edge에서 김온유의 프로필로 전환 합니다. [파워 앱 포털][pas]로 접속을 하거나 office.com에서 김온유의 프로필로 계정 접속을 확인한 후에 Power Automate로 들어갑니다. 앱 메뉴에서 **PL900GoodsApp**을 실행합니다. 화면에 **권한 허용**에 대한 요청이 나타납니다. "**허용**"을 클릭 후 입장합니다.
 
     ![사용자 화면1][image-11]
 
-2. 모든 화면이 잘 실행되는지 확인합니다. 파워 앱 화면을 모두 실행된 후 승인 안내 이메일도 확인합니다.
+2. 모든 화면이 잘 실행되는지 확인합니다. 파워 앱 화면을 모두 실행된 후 승인 안내 이메일도 김온유의 계정에서 확인합니다.
 
     ![사용자 화면2][image-12]
 
