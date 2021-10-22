@@ -1,5 +1,5 @@
 ---
-title: ➕ Microsoft 리스트 만들기
+title: ➕ SharePoint에서 리스트 만들기
 description: 파워 플랫폼 실습을 위해 필요한 Microsoft SharePoint 리스트(목록)를 엑셀파일로부터 생성합니다.
 order: 5104
 ---
@@ -53,7 +53,7 @@ order: 5104
 2. M365 개발자 테넌트 및 추가 계정 생성
 3. 웹 브라우저 프로필 구성
 <!-- 4. M365 개발자 계정 등록 -->
-5. Microsoft 리스트 만들기
+5. SharePoint에서 리스트 만들기
 6. [파워 앱 실습 #1][handson pas 1] 👈
 7. 파워 오토메이트 실습
 8. 파워 앱 실습 #2
