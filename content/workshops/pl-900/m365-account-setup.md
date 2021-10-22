@@ -46,6 +46,11 @@ order: 5101
 * **김온유**: `onyu.kim@<테넌트이름>.onmicrosoft.com`
 * **문정연**: `jungyeon.moon@<테넌트이름>.onmicrosoft.com`
 
+사용자 계정을 추가하고 라이센서를 할당하는 방법은 아래 페이지를 참조하세요.
+
+* [사용자 추가하기][m365 user add]
+* [사용자에게 라이센스 할당하기][m365 license add]
+
 > **체크포인트**:
 > 
 > * [추가 계정 생성 후](https://aka.ms/fdk/workshop/checkin/05)
@@ -73,6 +78,8 @@ order: 5101
 
 
 [m365 security group]: https://docs.microsoft.com/ko-kr/microsoft-365/admin/email/create-edit-or-delete-a-security-group?WT.mc_id=power-34890-juyoo
+[m365 user add]: https://docs.microsoft.com/ko-kr/microsoft-365/admin/add-users/add-users?view=o365-worldwide&WT.mc_id=power-34890-juyoo
+[m365 license add]: https://docs.microsoft.com/ko-kr/microsoft-365/admin/add-users/add-users?view=o365-worldwide&WT.mc_id=power-34890-juyoo
 
 [handson background]: ../background
 [handson m365 create]: ../m365-account-setup
